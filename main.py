@@ -52,6 +52,7 @@ def get_random_indexes(num_indexes):
 
 if __name__ == "__main__":
     phrase = generate_phrase()
+    # phrase = "world diesel only match guilt win laugh loan race disorder baby face market permit situate truly combine naive grit speak absurd point scrub sport".split(' ')
     print("Your seed phrase is: " + " ".join(phrase))
     private_key = generate_private_key(phrase)
     print("Your private key is: " + private_key)
